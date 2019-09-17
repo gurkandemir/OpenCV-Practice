@@ -1,7 +1,9 @@
 import cv2
 
+image_name = "inputs/nature-travel.jpg"
+
 # Reads image
-img = cv2.imread("nature-travel.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread(image_name, cv2.IMREAD_GRAYSCALE)
 
 # Shows original image
 cv2.imshow("Original image", img)

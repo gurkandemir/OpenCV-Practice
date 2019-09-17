@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-image_name = 'nature-travel.jpg'
+image_name = 'inputs/nature-travel.jpg'
 
 # Reading image
 img = cv2.imread(image_name, cv2.IMREAD_COLOR)
